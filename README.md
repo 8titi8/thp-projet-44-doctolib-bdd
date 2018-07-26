@@ -1,4 +1,4 @@
-<h1>The Hacking Project - Semaine 4 - Mercredi</h1>
+<h1>The Hacking Project - Semaine 4 - Jeudi</h1>
 
 <h2>Projet : Plateforme de réservation de docteurs</h2>
 
