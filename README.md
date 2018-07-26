@@ -27,5 +27,5 @@
 
 <p>Ce programme a été fait avec rails et utilise de nombreuses gem dont FAKER pour générer une super BDD ! </p>
 
-<p>Pour <strong>créer la BDD</strong>, faire un `git clone`, puis un `bundle install`, puis `rails db:migrate` et enfin `rails db:seed`</p>
+Pour <strong>créer la BDD</strong>, faire un `git clone`, puis un `bundle install`, puis `rails db:migrate` et enfin `rails db:seed`
 <p>Pour une lecture simplifiée, ouvrir le fichier <em>development.sqlite3</em> dans un logiciel graphique.</p>
