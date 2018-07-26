@@ -14,9 +14,11 @@
 <p> Pour ce faire nous avons créé le modèle suivant: 
 	<ul>
 		<li> <strong>Patient</strong> qui a comme attributs 'first_name', 'last-name'<br/>
-			- <em>has_many</em> : Un Patient a plusieurs rdv et médecins</li>
+			- <em>has_many</em> : Un Patient a plusieurs rdv</li>
+			- <em>has_many through</em> : Un Patient a plusieurs médecins au travers de rdv</li>
 		<li> <strong>Doctor</strong> qui a comme attributs 'first_name', 'last-name', 'specialty' et 'postal_code'<br/>
-			- <em>has_many</em> : Un Doctor a plusieurs rdv et patients</li>
+			- <em>has_many</em> : Un Doctor a plusieurs rdv</li>
+			- <em>has_many through</em> : Un Doctor a plusieurs patients au travers de rdv</li>
 		<li> <strong>Appointment</strong> qui a comme attribut 'date'.<br/>
 			- <em>has_one</em> : Un Appointment a un patient</li>
 			- <em>has_one</em> : Un Appointment a un médecin</li>
@@ -25,5 +27,5 @@
 
 <p>Ce programme a été fait avec rails et utilise de nombreuses gem dont FAKER pour générer une super BDD ! </p>
 
-<p>Pour <strong>créer la BDD</strong>, faire un ``git clone``, puis un ``bundle install``, puis ``rails db:migrate`` et enfin ``rails db:seed``</p>
+<p>Pour <strong>créer la BDD</strong>, faire un ```git clone```, puis un ```bundle install```, puis ```rails db:migrate``` et enfin ```rails db:seed```</p>
 <p>Pour une lecture simplifiée, ouvrir le fichier <em>development.sqlite3</em> dans un logiciel graphique.</p>
